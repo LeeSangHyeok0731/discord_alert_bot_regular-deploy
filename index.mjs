@@ -8,7 +8,7 @@ export const handler = async (event) => {
   const owner = "themoment-team";
   const repo = "hellogsm-front-24";
   const workflowFileName = "regular-deploy.yml";
-  const ref = "develop";
+  const ref = "main";
 
   try {
     await fetch(
